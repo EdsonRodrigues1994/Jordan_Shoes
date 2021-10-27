@@ -1,9 +1,40 @@
 /* Responsividade para celulares */
 
 @media only screen and (max-width: 787px) {
+  .banner {
+    background-image: url(/img/banner-mobile.png);
+  }
+  .banner h1 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .banner p {
+    max-width: 357px;
+    margin: 20px auto;
+    line-height: 28px;
+  }
+  .titulo h1 {
+    font-size: 28px;
+    line-height: 54px;
+  }
+  .titulo p {
+    max-width: 374px;
+    margin: 0 auto 60px auto;
+  }
+  .campo_cards {
+    grid-template-columns: 1fr;
+    max-height: 3000px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
 }
 
 /* Responsividade para tablet */
 
-@media only screen and (min-width: 788px) and (max-width: 979px) {
+@media only screen and (min-width: 788px) and (max-width: 1260px) {
+  .campo_cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }

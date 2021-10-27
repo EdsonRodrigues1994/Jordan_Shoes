@@ -127,6 +127,7 @@ ul {
 }
 
 .banner p {
+  display: flex;
   font-family: "Montserrat", sans-serif;
   color: #f6f6f6;
   font-size: 18px;
@@ -156,6 +157,7 @@ ul {
   line-height: 35px;
   color: #474747;
   font-weight: 500;
+  margin-bottom: 60px;
 }
 
 .produtos {
@@ -174,9 +176,7 @@ ul {
   margin: auto 13px;
   max-height: 302px;
   max-width: 300px;
-  padding: 76px 25px;
   display: flex;
-  margin-top: 59px;
   background-color: #ebe9ea;
   transform: scale(0.9);
   transition: 1s;
@@ -186,6 +186,10 @@ ul {
   transform: scale(1);
   border: 3px solid #000;
   background-color: #474747;
+}
+
+.cards img {
+  padding: 76px 25px;
 }
 
 .footer {
