@@ -178,6 +178,14 @@ ul {
   display: flex;
   margin-top: 59px;
   background-color: #ebe9ea;
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+.cards:hover {
+  transform: scale(1);
+  border: 3px solid #000;
+  background-color: #474747;
 }
 
 .footer {
