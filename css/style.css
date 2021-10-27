@@ -135,3 +135,61 @@ ul {
   line-height: 35px;
   max-width: 400px;
 }
+
+.titulo h1 {
+  display: flex;
+  justify-content: center;
+  margin: 58px auto 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 62px;
+  color: #181818;
+}
+
+.titulo p {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 500;
+}
+
+.produtos {
+  display: flex;
+  place-content: center;
+}
+
+.campo_cards {
+  max-width: 1440px;
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cards {
+  margin: auto 13px;
+  max-height: 302px;
+  max-width: 300px;
+  padding: 76px 25px;
+  display: flex;
+  margin-top: 59px;
+  background-color: #ebe9ea;
+}
+
+.footer {
+  color: #f6f6f6;
+  background: #000;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  place-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  height: 60px;
+}
